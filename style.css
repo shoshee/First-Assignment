@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color:dimgrey;
+}
+
+
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+ h1 span{
+     color: brown;
+ }
+ h1{
+    font-size: 50px;
+ }
+
+ h2{
+    font-size: 40px;
+}
+
+ .recipies-area{
+     height: 30%;
+
+ }
+
+ section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.half-width img{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+#person-img{
+    height: 500px;
+}
+
+.about-me-area{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+
+}
+.recipies-area{
+    text-align: center;
+    background-color: honeydew;
+}
+
+.recipe-list div{
+    box-shadow: 5px 7px 40px gray;
+    border-radius: 25px;
+    height: 90%;
+    
+
+}
+.single-recipe{
+    width:30%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+
+}
+.single-recipe img{
+    width: 100%;
+}
+.recipe-list{
+    display: flex;
+}
+
+.social-meadia-area{
+
+    display: flex;
+    box-shadow: 5px 7px 40px gray;
+    border-radius: 25px;
+    height: 30%;
+}
+.social-meadia-area div{
+    width: 30%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.customization-area h2{
+    text-align: center;
+}
+.customization-area p{
+    text-align: center;
+   
+}
+.customization-option{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.customization-option div{
+    display: flex;
+}
+.footer-area{
+    text-align: center;
+    background-color: cadetblue;
+    height:30% ;
+}
+.achivement-area{
+    text-align: center;
+    height: 30%;
+    background-color: lavender;
+}
